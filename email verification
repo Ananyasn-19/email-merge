@@ -1,7 +1,10 @@
 email = input("Enetr your email : ")
 if len(email) >= 6:
     if(email[0].isalpha()):
-        pass
+        if("@" in email) and email.count("@")==1:
+                pass
+        else: 
+                print("wrong email 3")
     else:
         print("Wrong email")
 else:

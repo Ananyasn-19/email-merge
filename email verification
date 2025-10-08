@@ -20,3 +20,4 @@ if len(email) >= 6:
         print("Wrong email")
 else:
     print("Wrong email 1")
+
